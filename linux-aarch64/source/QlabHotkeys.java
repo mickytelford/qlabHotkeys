@@ -102,7 +102,7 @@ public void keyPressed() {
   } else if (keyIndex == 38) {
     sendOSC("/playhead/previous");
   } else if (keyIndex == 40) {
-    sendOSC("playhead/next");
+    sendOSC("/playhead/next");
   } else if (keyIndex == 49) { // Escape key
     long now = millis();
     if (escapePressed && now - escapePressTime < 500) {
