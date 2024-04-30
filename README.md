@@ -9,3 +9,10 @@ EG
 Users presses G, message sent to qlab to trigger the cue labelled G, when released a message is sent to trigger cue Ga.
 
 On load up the users is offered options of which IP address to use and which port to send the messages. It also offered up the use of localhost and the default port of 53000 for ease. 
+
+# Other Control
+On top of hot key support, the following controls are also coded to work with your qlab file.
+    * Spacebar - Go
+    * 1 - Stop/Panic (cannot be esc as this closes the app)
+    * Playhead up
+    * Playhead down
