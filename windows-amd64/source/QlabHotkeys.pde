@@ -54,7 +54,7 @@ void displayKeyStates() {
   int cellWidth = width / cols;
   int cellHeight = height / rows;
   
-  String keys = "1234567890-=qwertyuiop[]asdfghjkl;'#\\zxcvbnm,./";
+  String keys = "1234567890-=QWERTYUIOP[]ASDFGHJKL;'#\\ZXCVBNM,./";
   
   for (int i = 0; i < keys.length(); i++) {
     char keyChar = keys.charAt(i);
