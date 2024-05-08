@@ -49,12 +49,12 @@ void draw() {
 
 void displayKeyStates() {
   int cols = 10; // Number of columns
-  int rows = 4; // Number of rows
+  int rows = 5; // Number of rows
   
   int cellWidth = width / cols;
   int cellHeight = height / rows;
   
-  String keys = "1234567890-=QWERTYUIOP[]ASDFGHJKL;'#\\ZXCVBNM,./";
+  String keys = "1234567890QWERTYUIOPASDFGHJKL ZXCVBNM[]-=,./;'#\\";
   
   for (int i = 0; i < keys.length(); i++) {
     char keyChar = keys.charAt(i);
